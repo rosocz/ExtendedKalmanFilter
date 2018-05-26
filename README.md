@@ -30,13 +30,18 @@ INPUT: values provided by the simulator to the c++ program
 
 
 OUTPUT: values provided by the c++ program to the simulator
+RMSE:
 
-["estimate_x"] <= kalman filter estimated position x
-["estimate_y"] <= kalman filter estimated position y
-["rmse_x"]
-["rmse_y"]
-["rmse_vx"]
-["rmse_vy"]
+X = 0.0973
+
+Y = 0.0855
+
+VX = 0.4513
+
+VY = 0.4399
+
+
+![alt text](./Docs/result.png "result of the filter")
 
 ---
 
